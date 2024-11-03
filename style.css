@@ -1,3 +1,6 @@
+
+
+/*START COPY FROM HERE*/
         body {
             background-color: #121212;
             color: white;
@@ -48,7 +51,7 @@
         }
         
         .song-item {
-            background-color: transparent; /* Make background transparent */
+            background-color: transparent; /* Makes background transparent */
             color: white;
             padding: 10px 20px;
             display: flex;
@@ -75,9 +78,10 @@
         #playlist li:hover {
             background-color:  hsla(0,0%,100%,.1);
         }
-        
+ /*END COPY FROM HERE*/
+       
         .playlist-header {
-            background-image: url("my_anti_aircraft_friend.webp");
+            background-image: url("https://codehs.com/uploads/9607b9a29cb4da9827cb2e7e24cce40f");
             background-size: cover;
             background-position: center;
             height: 300px;
@@ -91,17 +95,7 @@
             padding: 20px;
             width: 100%;
         }
-        #playlist {
-            list-style-type: none;
-            padding: 0;
-        }
-        #playlist li {
-            padding: 10px;
-            cursor: pointer;
-        }
-        #playlist li:hover {
-            background-color: black;
-        }
+
         #custom-player {
             background-color: black;
             padding: 20px;
@@ -192,6 +186,8 @@
             padding: 20px;
             color: white;
         }
+        
+
 
         #lyricsSidebar.open {
             right: 0;
